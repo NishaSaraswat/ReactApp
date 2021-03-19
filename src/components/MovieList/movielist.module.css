@@ -1,11 +1,9 @@
-.movielist{
-    display:flex;
-    flex-direction: column 1fr;
-    flex-wrap: wrap;
-    background-color: rgba(223, 45, 13, 0.822);
-    margin-right: 100px;
-    border-radius: 35px;
-    box-sizing: border-box;
-    
-
+.movielist {
+  display: flex;
+  flex-direction: column 1fr;
+  flex-wrap: wrap;
+  background-color: rgba(223, 45, 13, 0.822);
+  margin-right: 100px;
+  border-radius: 35px;
+  box-sizing: border-box;
 }

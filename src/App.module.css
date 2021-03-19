@@ -1,11 +1,7 @@
-
-*{
-    margin: 0;
-   
+* {
+  margin: 0;
 }
-.bgimg{
-   
-    width: 100%;
-    height: auto;
-    
+.bgimg {
+  width: 100%;
+  height: auto;
 }

@@ -1,6 +1,6 @@
 import React from "react";
-import Movie from "../Movie/Movie.js"
-import movieListStyle from '../MovieList/movielist.module.css'
+import Movie from "../Movie/Movie.js";
+import movieListStyle from "../MovieList/movielist.module.css";
 
 function MovieList(props) {
   return (
@@ -8,9 +8,8 @@ function MovieList(props) {
       {props.movies.map((movie, index) => (
         <div key={index}>
           <br />
-          
-            <Movie movie={movie} />
-          
+
+          <Movie movie={movie} />
         </div>
       ))}
     </div>
