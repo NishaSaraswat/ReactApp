@@ -1,0 +1,19 @@
+.errorstyle{
+
+    color:red ;
+    text-Align:center;
+    font-Size:50px;
+    padding-top: 60px;
+}
+.movieResults{
+
+  
+    padding-left: 10%;
+    padding-top: 5px;
+    align-items: center;
+   background-image: url('../popcorn.png');
+   background-repeat: no-repeat;
+   background-size: 150px;
+   background-position: center;
+    
+}

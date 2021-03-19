@@ -1,0 +1,15 @@
+
+.header{
+    
+    background-image: url(/src/components/Header/cinema.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(1);
+    font-size: 2rem;
+    font-family: fantasy;
+    color:white;
+    text-align: center;
+    
+}
+
+
