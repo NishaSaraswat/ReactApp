@@ -13,6 +13,7 @@ class MovieAPI extends Component {
       selectValue: "",
     };
   }
+
   componentDidMount = async () => {
     let url = `http://www.omdbapi.com/?apikey=9f2af610&s=${this.state.input}`;
     try {
@@ -49,6 +50,7 @@ class MovieAPI extends Component {
       console.error(error);
     }
   };
+
   handleFormValue = (e) => {
     e.preventDefault();
     const target = e.target;
@@ -62,7 +64,6 @@ class MovieAPI extends Component {
       },
       () => this.searchMovie()
     );
-
     //console.log(this.state.selectValue);
   };
 
