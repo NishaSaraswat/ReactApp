@@ -15,7 +15,7 @@ class MovieAPI extends Component {
   }
 
   componentDidMount = async () => {
-    let url = `http://www.omdbapi.com/?apikey=9f2af610&s=${this.state.input}`;
+    let url = `https://www.omdbapi.com/?apikey=9f2af610&s=${this.state.input}`;
     try {
       const responce = await fetch(url);
       const data = await responce.json();
@@ -29,7 +29,7 @@ class MovieAPI extends Component {
   };
 
   searchMovie = async () => {
-    let url = `http://www.omdbapi.com/?apikey=9f2af610&s=${this.state.input}&type=${this.state.selectValue}`;
+    let url = `https://www.omdbapi.com/?apikey=9f2af610&s=${this.state.input}&type=${this.state.selectValue}`;
     try {
       const res = await fetch(url);
       const data = await res.json();
