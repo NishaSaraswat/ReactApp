@@ -23,3 +23,8 @@ input {
     border-style: groove;
 
 }
+@media only screen and (max-width: 425px){
+    input{
+        margin-left:-60px;
+    }
+}

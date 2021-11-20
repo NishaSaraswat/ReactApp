@@ -1,8 +1,8 @@
-* {
+*{
   margin: 0;
 }
 .bgimg {
-  width: 100%;
   height: auto;
   background-color: black;
+  width:100vh;
 }
